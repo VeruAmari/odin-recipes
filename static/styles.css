@@ -1,12 +1,25 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 227, 231);
+}
+
 .text-center {
     text-align: center;
 }
 
 ul {
     list-style-position: inside;
+    text-align: left;
 }
 
 img {
     height: auto;
-    width: 500px;
+    width: 300px;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
+    border: 5px dotted rgb(241, 117, 103);
 }
