@@ -5,3 +5,8 @@
 ul {
     list-style-position: inside;
 }
+
+img {
+    height: auto;
+    width: 500px;
+}
