@@ -1,39 +1,57 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    
     color:rgb(255, 225, 222);
+    margin: 0;
+    padding: 0;
 }
 
-.text-center {
-    text-align: center;
-}
+.text-center { text-align: center; }
 
 ul,
-ol {
-    text-align: left;
-}
-
-li {
-    margin: auto;
-}
+ol { text-align: left; }
 
 html {
     background-color: rgb(34, 87, 82);
-    background-color: rgb(241, 167, 159);
+    background-color: rgb(241, 183, 175);
 }
 
 main {
     display: flex;
-    margin: 10px auto;
-    border: 5px dotted rgb(44, 122, 115);
+    justify-content: center;
+    /* border: 5px dotted rgb(44, 122, 115); */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: rgb(25, 85, 80);
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.links {
+    /* border: 1px solid #fff; For debugging */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login { margin-left: 20px;}
+
+.flex-item {
 }
 
 .left-wrapper,
 .center-wrapper,
 .right-wrapper {
     display: inline-block;
-    background-color: rgb(44, 122, 115);
-    background-color: rgb(34, 87, 82);
+    background-color: rgb(22, 49, 46);
     width: 15%;
     padding: 10px 10px;
     margin: 5px;
@@ -52,7 +70,7 @@ img {
     width: 100%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
     .left-wrapper,
     .right-wrapper {
       display: none;
