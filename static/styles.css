@@ -6,9 +6,16 @@
 }
 
 .text-center { text-align: center; }
+.text-left { text-align: left; }
 
 ul,
-ol { text-align: left; }
+ol {
+    text-align: left; 
+}
+
+li {
+    padding-bottom: 2px;
+}
 
 html {
     background-color: rgb(34, 87, 82);
@@ -17,13 +24,14 @@ html {
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* border: 5px dotted rgb(44, 122, 115); */
+    background-color: rgb(22, 49, 46);
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header {
@@ -47,14 +55,19 @@ header {
 .flex-item {
 }
 
+.whole-wrapper {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(22, 49, 46);
+}
+
 .left-wrapper,
 .center-wrapper,
 .right-wrapper {
-    display: inline-block;
-    background-color: rgb(22, 49, 46);
+    /* background-color: rgb(22, 49, 46); */
+    text-align: center;
     width: 15%;
     padding: 10px 10px;
-    margin: 5px;
 }
 
 .center-wrapper {
