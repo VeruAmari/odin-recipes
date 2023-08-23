@@ -46,7 +46,9 @@ main {
 
 img {
     height: auto;
+    max-width: 100%;
     max-width: 300px;
+    
     width: 100%;
 }
 
