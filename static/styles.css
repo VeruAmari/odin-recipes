@@ -9,7 +9,8 @@
 .text-left { text-align: left; }
 
 ul,
-ol {
+ol,
+p {
     text-align: left; 
 }
 
